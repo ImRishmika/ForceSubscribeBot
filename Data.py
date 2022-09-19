@@ -4,16 +4,17 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hey {}
+👋 Hey {}
 
 Welcome to {}
 
 I can force your group's users to join a particular chat. 
 The chat can be a group or channel. It can be private or public.
 
-Use below buttons to learn more !
+⚜ Use below buttons to learn more !
 
-By @ImDark_Empire
+👨‍💻 Devoloper :- @ImRishmika
+🔌 Powerd By [Cyber Botz SL](t.me/Cyber_Botz_SL)
     """
 
     # Home Button
@@ -23,13 +24,13 @@ By @ImDark_Empire
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("🤖 Bot Status and More Bots 🤖", url="https://t.me/SLBotOfficial/28")],
+        [InlineKeyboardButton("🔅 Cyber Botz SL 🔅", url="https://t.me/Cyber_Botz_SL")],
         [
             InlineKeyboardButton("❔ How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("♾️ About ♾️", callback_data="about")
+            InlineKeyboardButton("☘ About ☘", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/SLBotOfficial")],
-        [InlineKeyboardButton("🛫 Support Group 🛫", url="https://t.me/trtechguide")],
+        [InlineKeyboardButton("👨‍💻 Devoloper 👨‍💻", url="https://t.me/ImRishmika")],
+        [InlineKeyboardButton("🆘 Support Group 🆘", url="https://t.me/EmoBotSupport")],
     ]
 
     # Help Message
@@ -39,13 +40,13 @@ By @ImDark_Empire
 2) Add me to the particular chat as **Admin** where you want to force your users to join. It can be any group or channel, public or private.
 
 3) Use /fsub chat_id/username to make me functional. Use /id if you need chat id.
-Example : `/fsub -1001505616678` or `/forcesubscribe -1001375849192`
+Example : `/fsub -1001742371821` or `/forcesubscribe -1001742371821`
 
 4) [Optional] Use /settings to change settings!
 
 5) You are good to go. Leave the rest to me.
 
-🤖 **Available Commands** 🤖
+☘ **Available Commands** ☘
 
 /fsub - See current force subscribe chat
 /fsub chat_id/username - Force users to join the particular chat
@@ -60,15 +61,18 @@ Example : `/fsub -1001505616678` or `/forcesubscribe -1001375849192`
 
     # About Message
     ABOUT = """
-**About This Bot** 
+    💬 About This Bot 💬
 
-A telegram force subscribing bot by @SLBotOfficial
+💢 A telegram force subscribing bot by @ImRishmika
 
-Source Code : [Click Here](https://github.com/DARKEMPIRESL/ForceSubscribeBot)
+💠 Devoloper : [Rishmika Sandanu](t.me/ImRishmika)
 
-Framework : [Pyrogram](docs.pyrogram.org)
+💠 Framework : [Pyrogram](docs.pyrogram.org)
 
-Language : [Python](www.python.org)
+💠 Language : [Python](www.python.org)
 
-Developer : @ImDark_Empire
+💠 Sever : [Heroku](https://heroku.com)
+
+🔌⚡ Powerd By [Cyber Botz](t.me/Cyber_Botz_SL)
+
     """
